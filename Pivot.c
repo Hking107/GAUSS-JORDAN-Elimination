@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+/* GAUSS-JORDAN Elimination*/
+/* Reduced Echelon form of an n ordered Matrix */
 void swap(float *a, float *b){
     float temp;
     temp = *a;
